@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Clojure URL Shortener App</h1>
+		<form method="POST" action="/shorten">
+			<input type="text" name="url" />
+			<input type="submit" value="Shorten!" />
+
+			<ul id="listing">
+				<li>
+					<a href="/shorturl" target="_blank"></a>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
